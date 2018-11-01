@@ -2,11 +2,10 @@ use_frameworks!
 
 target 'SideNavigation_Example' do
     pod 'SideNavigation', '1.1.3'#, :path => '../'
-  pod 'SnapKit'
+    pod 'SnapKit'
 
-  target 'SideNavigation_Tests' do
-    inherit! :search_paths
-
-    
-  end
+#  target 'SideNavigation_Tests' do
+#    inherit! :search_paths
+#    
+#  end
 end
