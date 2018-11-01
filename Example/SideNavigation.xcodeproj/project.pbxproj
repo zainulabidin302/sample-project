@@ -7,6 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		180D4E5821886B210015AE2E /* AddCarDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180D4E5721886B210015AE2E /* AddCarDetailsViewController.swift */; };
+		180D4E5A21886B640015AE2E /* MyCarAdsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180D4E5921886B640015AE2E /* MyCarAdsViewController.swift */; };
+		180D4E5E21887B7B0015AE2E /* MyCarsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180D4E5D21887B7B0015AE2E /* MyCarsTableViewController.swift */; };
+		180D4E6021887C5F0015AE2E /* MyServicesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180D4E5F21887C5F0015AE2E /* MyServicesTableViewController.swift */; };
+		180D4E6221887C7F0015AE2E /* MyServicesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180D4E6121887C7F0015AE2E /* MyServicesViewController.swift */; };
+		180D4E6421887D160015AE2E /* AddServiceDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180D4E6321887D160015AE2E /* AddServiceDetailsViewController.swift */; };
+		180D4E6621887DD10015AE2E /* MyProductsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180D4E6521887DD10015AE2E /* MyProductsViewController.swift */; };
+		180D4E6821887DFB0015AE2E /* MyProductsTableTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180D4E6721887DFB0015AE2E /* MyProductsTableTableViewController.swift */; };
+		180D4E6A21887E5C0015AE2E /* AddProductDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180D4E6921887E5C0015AE2E /* AddProductDetailsViewController.swift */; };
+		180D4E6C218889010015AE2E /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180D4E6B218889010015AE2E /* SignupViewController.swift */; };
+		18647075218791B2007F1F70 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18647074218791B2007F1F70 /* ProfileViewController.swift */; };
+		1864707721879374007F1F70 /* ServicesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1864707621879374007F1F70 /* ServicesViewController.swift */; };
+		186470792187A599007F1F70 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186470782187A599007F1F70 /* LoginViewController.swift */; };
+		1864707C2187A5CA007F1F70 /* DesignableUITextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1864707B2187A5CA007F1F70 /* DesignableUITextField.swift */; };
+		1864707E2187A94B007F1F70 /* EditProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1864707D2187A94B007F1F70 /* EditProfileViewController.swift */; };
+		186470802187AB17007F1F70 /* FloatLabelTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1864707F2187AB17007F1F70 /* FloatLabelTextField.swift */; };
+		186470822187AB2F007F1F70 /* FloatLabelTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186470812187AB2F007F1F70 /* FloatLabelTextView.swift */; };
+		186470852187BB34007F1F70 /* CarGarageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186470842187BB34007F1F70 /* CarGarageViewController.swift */; };
+		186470872187BC6C007F1F70 /* CarHygieneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186470862187BC6C007F1F70 /* CarHygieneViewController.swift */; };
+		186470892187C24A007F1F70 /* RequestCarInspectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186470882187C24A007F1F70 /* RequestCarInspectionViewController.swift */; };
+		1864708B2187C4AA007F1F70 /* MyCarsForSaleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1864708A2187C4AA007F1F70 /* MyCarsForSaleViewController.swift */; };
+		1864708D21884513007F1F70 /* CommonListingAndSearchingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1864708C21884513007F1F70 /* CommonListingAndSearchingViewController.swift */; };
+		1864708F21885606007F1F70 /* ServicesListingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1864708E21885606007F1F70 /* ServicesListingViewController.swift */; };
+		189332B9218ACE7800181397 /* MyCarsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189332B8218ACE7800181397 /* MyCarsTableViewCell.swift */; };
+		189332BB218B15D500181397 /* MyServiceTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189332BA218B15D500181397 /* MyServiceTableViewCell.swift */; };
 		448BAF798497EFA07278D1E2 /* Pods_SideNavigation_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F03EA4A0867D9D9E11C578B9 /* Pods_SideNavigation_Tests.framework */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
@@ -31,6 +56,31 @@
 
 /* Begin PBXFileReference section */
 		081D056CE4F8BDE1A4D1FE16 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		180D4E5721886B210015AE2E /* AddCarDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCarDetailsViewController.swift; sourceTree = "<group>"; };
+		180D4E5921886B640015AE2E /* MyCarAdsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCarAdsViewController.swift; sourceTree = "<group>"; };
+		180D4E5D21887B7B0015AE2E /* MyCarsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCarsTableViewController.swift; sourceTree = "<group>"; };
+		180D4E5F21887C5F0015AE2E /* MyServicesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyServicesTableViewController.swift; sourceTree = "<group>"; };
+		180D4E6121887C7F0015AE2E /* MyServicesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyServicesViewController.swift; sourceTree = "<group>"; };
+		180D4E6321887D160015AE2E /* AddServiceDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddServiceDetailsViewController.swift; sourceTree = "<group>"; };
+		180D4E6521887DD10015AE2E /* MyProductsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyProductsViewController.swift; sourceTree = "<group>"; };
+		180D4E6721887DFB0015AE2E /* MyProductsTableTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyProductsTableTableViewController.swift; sourceTree = "<group>"; };
+		180D4E6921887E5C0015AE2E /* AddProductDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddProductDetailsViewController.swift; sourceTree = "<group>"; };
+		180D4E6B218889010015AE2E /* SignupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
+		18647074218791B2007F1F70 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		1864707621879374007F1F70 /* ServicesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServicesViewController.swift; sourceTree = "<group>"; };
+		186470782187A599007F1F70 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		1864707B2187A5CA007F1F70 /* DesignableUITextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignableUITextField.swift; sourceTree = "<group>"; };
+		1864707D2187A94B007F1F70 /* EditProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileViewController.swift; sourceTree = "<group>"; };
+		1864707F2187AB17007F1F70 /* FloatLabelTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatLabelTextField.swift; sourceTree = "<group>"; };
+		186470812187AB2F007F1F70 /* FloatLabelTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatLabelTextView.swift; sourceTree = "<group>"; };
+		186470842187BB34007F1F70 /* CarGarageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarGarageViewController.swift; sourceTree = "<group>"; };
+		186470862187BC6C007F1F70 /* CarHygieneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarHygieneViewController.swift; sourceTree = "<group>"; };
+		186470882187C24A007F1F70 /* RequestCarInspectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestCarInspectionViewController.swift; sourceTree = "<group>"; };
+		1864708A2187C4AA007F1F70 /* MyCarsForSaleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCarsForSaleViewController.swift; sourceTree = "<group>"; };
+		1864708C21884513007F1F70 /* CommonListingAndSearchingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonListingAndSearchingViewController.swift; sourceTree = "<group>"; };
+		1864708E21885606007F1F70 /* ServicesListingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServicesListingViewController.swift; sourceTree = "<group>"; };
+		189332B8218ACE7800181397 /* MyCarsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCarsTableViewCell.swift; sourceTree = "<group>"; };
+		189332BA218B15D500181397 /* MyServiceTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyServiceTableViewCell.swift; sourceTree = "<group>"; };
 		396EF163472C49DB3C652B6E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		560C7E285395390DE8BBB80F /* Pods-SideNavigation_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SideNavigation_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SideNavigation_Example/Pods-SideNavigation_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* SideNavigation_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SideNavigation_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -84,6 +134,70 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		180D4E5C21887B3E0015AE2E /* TableViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				189332B7218ACE3900181397 /* TableViewCells */,
+				180D4E5D21887B7B0015AE2E /* MyCarsTableViewController.swift */,
+				180D4E5F21887C5F0015AE2E /* MyServicesTableViewController.swift */,
+				180D4E6721887DFB0015AE2E /* MyProductsTableTableViewController.swift */,
+			);
+			name = TableViewControllers;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		1864707321879194007F1F70 /* VCs */ = {
+			isa = PBXGroup;
+			children = (
+				180D4E5C21887B3E0015AE2E /* TableViewControllers */,
+				186470832187BB1D007F1F70 /* PopUps */,
+				186470782187A599007F1F70 /* LoginViewController.swift */,
+				180D4E6B218889010015AE2E /* SignupViewController.swift */,
+				18647074218791B2007F1F70 /* ProfileViewController.swift */,
+				180D4E5721886B210015AE2E /* AddCarDetailsViewController.swift */,
+				180D4E6321887D160015AE2E /* AddServiceDetailsViewController.swift */,
+				180D4E6921887E5C0015AE2E /* AddProductDetailsViewController.swift */,
+				1864707621879374007F1F70 /* ServicesViewController.swift */,
+				1864707D2187A94B007F1F70 /* EditProfileViewController.swift */,
+				186470882187C24A007F1F70 /* RequestCarInspectionViewController.swift */,
+				1864708A2187C4AA007F1F70 /* MyCarsForSaleViewController.swift */,
+				1864708C21884513007F1F70 /* CommonListingAndSearchingViewController.swift */,
+				1864708E21885606007F1F70 /* ServicesListingViewController.swift */,
+				180D4E5921886B640015AE2E /* MyCarAdsViewController.swift */,
+				180D4E6121887C7F0015AE2E /* MyServicesViewController.swift */,
+				180D4E6521887DD10015AE2E /* MyProductsViewController.swift */,
+			);
+			path = VCs;
+			sourceTree = "<group>";
+		};
+		1864707A2187A5A3007F1F70 /* CustomComponents */ = {
+			isa = PBXGroup;
+			children = (
+				1864707B2187A5CA007F1F70 /* DesignableUITextField.swift */,
+				1864707F2187AB17007F1F70 /* FloatLabelTextField.swift */,
+				186470812187AB2F007F1F70 /* FloatLabelTextView.swift */,
+			);
+			name = CustomComponents;
+			sourceTree = "<group>";
+		};
+		186470832187BB1D007F1F70 /* PopUps */ = {
+			isa = PBXGroup;
+			children = (
+				186470842187BB34007F1F70 /* CarGarageViewController.swift */,
+				186470862187BC6C007F1F70 /* CarHygieneViewController.swift */,
+			);
+			name = PopUps;
+			sourceTree = "<group>";
+		};
+		189332B7218ACE3900181397 /* TableViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				189332B8218ACE7800181397 /* MyCarsTableViewCell.swift */,
+				189332BA218B15D500181397 /* MyServiceTableViewCell.swift */,
+			);
+			path = TableViewCells;
+			sourceTree = "<group>";
+		};
 		607FACC71AFB9204008FA782 = {
 			isa = PBXGroup;
 			children = (
@@ -108,6 +222,8 @@
 		607FACD21AFB9204008FA782 /* Example for SideNavigation */ = {
 			isa = PBXGroup;
 			children = (
+				1864707321879194007F1F70 /* VCs */,
+				1864707A2187A5A3007F1F70 /* CustomComponents */,
 				AACEFFC91F31B8B1000DB41E /* LeftViewController.swift */,
 				AACEFFCD1F31B954000DB41E /* RightViewController.swift */,
 				AACEFFCA1F31B8B1000DB41E /* ViewController.swift */,
@@ -177,7 +293,6 @@
 				607FACCD1AFB9204008FA782 /* Frameworks */,
 				607FACCE1AFB9204008FA782 /* Resources */,
 				7CBD469E0086C13AD130E3CE /* [CP] Embed Pods Frameworks */,
-				E059E257C92306F738D2FAEA /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -196,8 +311,6 @@
 				607FACE11AFB9204008FA782 /* Sources */,
 				607FACE21AFB9204008FA782 /* Frameworks */,
 				607FACE31AFB9204008FA782 /* Resources */,
-				75D02DDC07934793A019371C /* [CP] Embed Pods Frameworks */,
-				E89DFCE8EA66424D37596861 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -215,14 +328,18 @@
 		607FACC81AFB9204008FA782 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				KnownAssetTags = (
+					"Gas Station",
+				);
 				LastSwiftUpdateCheck = 0720;
 				LastUpgradeCheck = 0900;
 				ORGANIZATIONNAME = CocoaPods;
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
-						DevelopmentTeam = GTVM2F95ZD;
+						DevelopmentTeam = Y82H2XTB5U;
 						LastSwiftMigration = 0900;
+						ProvisioningStyle = Automatic;
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
@@ -308,21 +425,6 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		75D02DDC07934793A019371C /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SideNavigation_Tests/Pods-SideNavigation_Tests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		7CBD469E0086C13AD130E3CE /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -343,36 +445,6 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SideNavigation_Example/Pods-SideNavigation_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		E059E257C92306F738D2FAEA /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SideNavigation_Example/Pods-SideNavigation_Example-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		E89DFCE8EA66424D37596861 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SideNavigation_Tests/Pods-SideNavigation_Tests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -380,10 +452,35 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				180D4E6C218889010015AE2E /* SignupViewController.swift in Sources */,
+				186470852187BB34007F1F70 /* CarGarageViewController.swift in Sources */,
+				180D4E6021887C5F0015AE2E /* MyServicesTableViewController.swift in Sources */,
+				1864708D21884513007F1F70 /* CommonListingAndSearchingViewController.swift in Sources */,
+				186470792187A599007F1F70 /* LoginViewController.swift in Sources */,
+				1864707721879374007F1F70 /* ServicesViewController.swift in Sources */,
 				AACEFFCC1F31B8B1000DB41E /* ViewController.swift in Sources */,
+				186470802187AB17007F1F70 /* FloatLabelTextField.swift in Sources */,
+				1864707C2187A5CA007F1F70 /* DesignableUITextField.swift in Sources */,
 				AACEFFCE1F31B954000DB41E /* RightViewController.swift in Sources */,
+				180D4E5A21886B640015AE2E /* MyCarAdsViewController.swift in Sources */,
+				18647075218791B2007F1F70 /* ProfileViewController.swift in Sources */,
+				1864708B2187C4AA007F1F70 /* MyCarsForSaleViewController.swift in Sources */,
+				186470872187BC6C007F1F70 /* CarHygieneViewController.swift in Sources */,
+				180D4E6A21887E5C0015AE2E /* AddProductDetailsViewController.swift in Sources */,
+				180D4E5E21887B7B0015AE2E /* MyCarsTableViewController.swift in Sources */,
+				180D4E6821887DFB0015AE2E /* MyProductsTableTableViewController.swift in Sources */,
+				180D4E6221887C7F0015AE2E /* MyServicesViewController.swift in Sources */,
+				189332B9218ACE7800181397 /* MyCarsTableViewCell.swift in Sources */,
+				189332BB218B15D500181397 /* MyServiceTableViewCell.swift in Sources */,
+				186470892187C24A007F1F70 /* RequestCarInspectionViewController.swift in Sources */,
+				180D4E5821886B210015AE2E /* AddCarDetailsViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
+				180D4E6621887DD10015AE2E /* MyProductsViewController.swift in Sources */,
 				AACEFFCB1F31B8B1000DB41E /* LeftViewController.swift in Sources */,
+				186470822187AB2F007F1F70 /* FloatLabelTextView.swift in Sources */,
+				1864707E2187A94B007F1F70 /* EditProfileViewController.swift in Sources */,
+				180D4E6421887D160015AE2E /* AddServiceDetailsViewController.swift in Sources */,
+				1864708F21885606007F1F70 /* ServicesListingViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -533,12 +630,16 @@
 			baseConfigurationReference = 560C7E285395390DE8BBB80F /* Pods-SideNavigation_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = GTVM2F95ZD;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y82H2XTB5U;
 				INFOPLIST_FILE = SideNavigation/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.SideNavigation-Example";
+				PRODUCT_BUNDLE_IDENTIFIER = com.getneural.Carkooz;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
@@ -548,12 +649,16 @@
 			baseConfigurationReference = A5AA5B3905617346F9C36EAF /* Pods-SideNavigation_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = GTVM2F95ZD;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y82H2XTB5U;
 				INFOPLIST_FILE = SideNavigation/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.SideNavigation-Example";
+				PRODUCT_BUNDLE_IDENTIFIER = com.getneural.Carkooz;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
